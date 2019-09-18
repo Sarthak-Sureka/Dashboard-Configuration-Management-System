@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(View));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet = new DashboardConfig.DesktopUI._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet();
-            this.dashboardsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dashboardsTableAdapter = new DashboardConfig.DesktopUI._DashboardConfig_DataAccess_DashboardConfigDbContextDataSetTableAdapters.DashboardsTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.componentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.datapointDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dashboardsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet = new DashboardConfig.DesktopUI._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet();
+            this.dashboardsTableAdapter = new DashboardConfig.DesktopUI._DashboardConfig_DataAccess_DashboardConfigDbContextDataSetTableAdapters.DashboardsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dashboardsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -83,20 +84,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(444, 304);
             this.dataGridView1.TabIndex = 5;
             // 
-            // _DashboardConfig_DataAccess_DashboardConfigDbContextDataSet
-            // 
-            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet.DataSetName = "_DashboardConfig_DataAccess_DashboardConfigDbContextDataSet";
-            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dashboardsBindingSource
-            // 
-            this.dashboardsBindingSource.DataMember = "Dashboards";
-            this.dashboardsBindingSource.DataSource = this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet;
-            // 
-            // dashboardsTableAdapter
-            // 
-            this.dashboardsTableAdapter.ClearBeforeFill = true;
-            // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
@@ -122,10 +109,25 @@
             this.datapointDataGridViewTextBoxColumn.HeaderText = "Datapoint";
             this.datapointDataGridViewTextBoxColumn.Name = "datapointDataGridViewTextBoxColumn";
             // 
+            // dashboardsBindingSource
+            // 
+            this.dashboardsBindingSource.DataMember = "Dashboards";
+            this.dashboardsBindingSource.DataSource = this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet;
+            // 
+            // _DashboardConfig_DataAccess_DashboardConfigDbContextDataSet
+            // 
+            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet.DataSetName = "_DashboardConfig_DataAccess_DashboardConfigDbContextDataSet";
+            this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dashboardsTableAdapter
+            // 
+            this.dashboardsTableAdapter.ClearBeforeFill = true;
+            // 
             // View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(539, 516);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -135,8 +137,8 @@
             this.Text = "View";
             this.Load += new System.EventHandler(this.View_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dashboardsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._DashboardConfig_DataAccess_DashboardConfigDbContextDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

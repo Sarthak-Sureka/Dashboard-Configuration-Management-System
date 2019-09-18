@@ -36,11 +36,11 @@
             // 
             this.Nextbutton.BackColor = System.Drawing.Color.Transparent;
             this.Nextbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Nextbutton.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nextbutton.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nextbutton.ForeColor = System.Drawing.Color.White;
-            this.Nextbutton.Location = new System.Drawing.Point(208, 454);
+            this.Nextbutton.Location = new System.Drawing.Point(193, 457);
             this.Nextbutton.Name = "Nextbutton";
-            this.Nextbutton.Size = new System.Drawing.Size(238, 48);
+            this.Nextbutton.Size = new System.Drawing.Size(251, 50);
             this.Nextbutton.TabIndex = 1;
             this.Nextbutton.Text = "Go To Menu";
             this.Nextbutton.UseVisualStyleBackColor = false;

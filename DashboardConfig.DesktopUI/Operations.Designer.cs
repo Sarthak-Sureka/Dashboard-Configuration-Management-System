@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Operations));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Deletebutton = new System.Windows.Forms.Button();
@@ -42,7 +43,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(42, 458);
+            this.button1.Location = new System.Drawing.Point(44, 441);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 37);
             this.button1.TabIndex = 11;
@@ -57,7 +58,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(214, 41);
+            this.label1.Location = new System.Drawing.Point(216, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 55);
             this.label1.TabIndex = 10;
@@ -69,7 +70,7 @@
             this.Deletebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Deletebutton.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Deletebutton.ForeColor = System.Drawing.Color.Black;
-            this.Deletebutton.Location = new System.Drawing.Point(207, 352);
+            this.Deletebutton.Location = new System.Drawing.Point(209, 335);
             this.Deletebutton.Name = "Deletebutton";
             this.Deletebutton.Size = new System.Drawing.Size(138, 43);
             this.Deletebutton.TabIndex = 9;
@@ -83,7 +84,7 @@
             this.Updatebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Updatebutton.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Updatebutton.ForeColor = System.Drawing.Color.Black;
-            this.Updatebutton.Location = new System.Drawing.Point(388, 257);
+            this.Updatebutton.Location = new System.Drawing.Point(390, 240);
             this.Updatebutton.Name = "Updatebutton";
             this.Updatebutton.Size = new System.Drawing.Size(138, 43);
             this.Updatebutton.TabIndex = 8;
@@ -97,7 +98,7 @@
             this.Viewbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Viewbutton.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Viewbutton.ForeColor = System.Drawing.Color.Black;
-            this.Viewbutton.Location = new System.Drawing.Point(28, 257);
+            this.Viewbutton.Location = new System.Drawing.Point(30, 240);
             this.Viewbutton.Name = "Viewbutton";
             this.Viewbutton.Size = new System.Drawing.Size(138, 43);
             this.Viewbutton.TabIndex = 7;
@@ -112,7 +113,7 @@
             this.Savebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Savebutton.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Savebutton.ForeColor = System.Drawing.Color.Black;
-            this.Savebutton.Location = new System.Drawing.Point(207, 148);
+            this.Savebutton.Location = new System.Drawing.Point(209, 131);
             this.Savebutton.Name = "Savebutton";
             this.Savebutton.Size = new System.Drawing.Size(138, 43);
             this.Savebutton.TabIndex = 6;
@@ -124,6 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(555, 516);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
