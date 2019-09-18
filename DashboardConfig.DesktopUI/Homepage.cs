@@ -21,7 +21,7 @@ namespace DashboardConfig.DesktopUI
         {
             Operations o = new Operations();
             o.Show();
-            this.Hide();
+            //this.Hide();
         }
     }
 }
