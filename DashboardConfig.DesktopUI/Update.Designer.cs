@@ -176,18 +176,11 @@
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "AB",
-            "AB+",
-            "AB-",
-            "O",
-            "O+",
-            "O-",
-            "A",
-            "A+",
-            "A-",
-            "B",
-            "B+",
-            "B-"});
+            "Line Chart",
+            "Card",
+            "Tabular",
+            "Doughnut Chart",
+            "Bar Chart"});
             this.comboBox1.Location = new System.Drawing.Point(225, 265);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(236, 31);
